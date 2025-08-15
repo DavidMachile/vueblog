@@ -54,6 +54,11 @@ projects:
     desc: chatgpt, deepseek
     link: https://metaso.cn/
 
+  - icon: link
+    name: 郑州车展
+    desc: 郑州车展
+    link: https://www.chezhanri.com/zhengzhouchezhan
+
   - icon: book
     name: 游戏
     desc: 游戏日常

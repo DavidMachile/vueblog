@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "daisz",
-    url: "",
+    url: "https://davidmachile.github.io/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
