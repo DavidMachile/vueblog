@@ -12,7 +12,7 @@ tag:
 
 下面这些图都是以"写真风格"为Prompt生成的，可以看到AI在人物五官和光影处理上已经相当出色了。当然，细节（比如手指、头发边缘）有时还是会崩，目前的AI绘图算是"80分美女"——远看惊艳，近看能挑出毛病。
 
-<Video src="https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4" controls />
+<video src="https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4" controls></video>
 
 ![](./img/b6ced67b7842451ea5039b4b216cff0a_0.png)
 ![](./img/b6ced67b7842451ea5039b4b216cff0a_1.png)
