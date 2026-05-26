@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://davidmachile.github.io",
+  hostname: "https://davidmachile.github.io/vueblog",
 
   author: {
     name: "daisz",
@@ -146,7 +146,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["ArtPlayer", "Badge", "PDF", "VidStack", "VPCard"],
+      components: ["Badge", "PDF", "Video", "VidStack", "VPCard"],
     },
 
     icon: {
