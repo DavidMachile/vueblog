@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://davidmachile.github.io",
 
   author: {
     name: "daisz",
-    url: "https://davidmachile.github.io/",
+    url: "https://github.com/DavidMachile",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "DavidMachile/vueblog",
 
   docsDir: "src",
 
@@ -31,6 +31,8 @@ export default hopeTheme({
   blog: {
     intro: "/intro.html",
     description: "一名不知名的工程师",
+    excerpt: true,
+    excerptLength: 200,
     medias: {
       Email: "1171002778@qq.com",
       Gitee: "https://gitee.com/dsz1992",
@@ -144,7 +146,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["ArtPlayer", "Badge", "PDF", "VidStack", "VPCard"],
     },
 
     icon: {
