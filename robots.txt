@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://davidmachile.github.io/vueblog/sitemap.xml
+Sitemap: https://davidmachile.github.io/vueblog/vueblog/sitemap.xml
