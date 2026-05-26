@@ -10,63 +10,48 @@ heroFullScreen: true
 tagline: 致敬每个正在努力的人
 projects:
   - icon: project
-    name: blog总览
-    desc: 所有文章
+    name: 全部文章
+    desc: 浏览所有文章
     link: /posts/
 
-  - icon: project
-    name: 技术学习
-    desc: 计算机相关
+  - icon: pen-to-square
+    name: 生活随笔
+    desc: 记录生活中的点滴感悟
+    link: /posts/生活随笔/
+
+  - icon: map
+    name: 旅行游记
+    desc: 走过的城市，看过的风景
+    link: /posts/旅行游记/
+
+  - icon: car
+    name: 汽车世界
+    desc: 买车、练车、用车记录
+    link: /posts/汽车世界/
+
+  - icon: robot
+    name: AI与创作
+    desc: AI工具探索与创作
+    link: /posts/AI与创作/
+
+  - icon: toolbox
+    name: 工具收藏
+    desc: 实用工具与资源推荐
+    link: /posts/工具收藏/
+
+  - icon: code
+    name: 技术博客
+    desc: 编程学习笔记
     link: /posts/博客/
 
-  - icon: link
-    name: 友情链接
-    desc: 欢迎交换友情链接
-    link: /favorite/links/friend
-
-  - icon: link
-    name: 我的书屋
-    desc: 书籍下载
-    link: https://zh.101ml.agency/
-
-  - icon: article
-    name: 我的随笔
-    desc: 保持每天好心情😊
-    link: /posts/随笔/
-
-  - icon: friend
-    name: blog收藏
-    desc: 一些做的漂亮的blog
-    link: https://你的伙伴链接
-
-  - icon: book
-    name: 工具箱
-    desc: 在线工具箱，办公精品
-    link: /posts/工具箱/tools.md
-
-  - icon: link
-    name: 电影票房
-    desc: 猫眼专业票房
-    link: https://piaofang.maoyan.com/dashboard
-
-  - icon: link
-    name: 秘塔
-    desc: chatgpt, deepseek
-    link: https://metaso.cn/
-
-  - icon: link
-    name: 郑州车展
-    desc: 郑州车展
-    link: https://www.chezhanri.com/zhengzhouchezhan
-
-  - icon: book
-    name: 游戏
+  - icon: gamepad
+    name: 游戏天地
     desc: 游戏日常
     link: /posts/游戏/
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 博客配置
-    desc: 用vue搭建的博客
-    link: https://theme-hope.vuejs.press/
+  - icon: book
+    name: 实用推荐
+    desc: 生活妙招、书影推荐
+    link: /posts/实用推荐/
 footer: 关于我 ｜ 关于本站
 ---

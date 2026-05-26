@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "daisz'blog | 记录生活与学习",
   displayFooter: true,
 
   // 博客相关

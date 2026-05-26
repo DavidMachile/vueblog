@@ -8,13 +8,14 @@ export default defineUserConfig({
   base: "/vueblog/",
   lang: "zh-CN",
   title: "daisz'blog",
-  description: "",
+  description: "daisz的博客 | 记录生活、旅行、技术学习与个人成长",
   theme: hopeTheme({
     navbar,
     displayFooter: false,
     plugins: {
       blog: {
-        excerpt: false,
+        excerpt: true,
+        excerptLength: 200,
       },
       components: {
         components: ["ArtPlayer", "PDF", "VidStack"],
