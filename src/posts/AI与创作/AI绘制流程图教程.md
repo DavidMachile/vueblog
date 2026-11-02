@@ -3,7 +3,9 @@ title: 使用 Mermaid 和 AI 画流程图
 date: 2025-02-11
 category: AI与创作
 tag:
-  - AI,流程图,教程
+  - AI
+  - 流程图
+  - 教程
 ---
 
 # 使用 Mermaid 和 AI 画流程图

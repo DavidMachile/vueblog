@@ -310,13 +310,13 @@ public class UserController {
 ```
 @RequestMapping("/file")
     public String upload(@RequestPart("myfile")MultipartFile file) throws IOException {
-        String path = "/Users/Documents/dsz111.jpg";
+        String path = "/Users/Documents/photo.jpg";
         file.transferTo(new File(path));
         return path;
     }
 ```
 @RequestPart用于将multiparty/form-data类型映射到控制器处理方法的参数中。
-这里@RequestPart("file")表示从请求中获取名为"file"的文件，长传的文件将被存储在file对象中。这里代码表示将上传得到的文件存储为dsz111.jpg。
+这里@RequestPart("file")表示从请求中获取名为"file"的文件，长传的文件将被存储在file对象中。这里代码表示将上传得到的文件存储为photo.jpg。
 ![](./img/spring14.png)
 ![](./img/spring15.png)
 但是这样编写的后端代码存在问题，就是每次访问服务器，服务器保留下的图片名字都一样，这样就会被覆盖掉，只保留下了最后一个文件。这是不完善的。

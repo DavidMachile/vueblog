@@ -3,7 +3,9 @@ title: 替代 DeepSeek 的 AI 工具推荐
 date: 2025-04-01
 category: 工具收藏
 tag:
-  - AI,工具,推荐
+  - AI
+  - 工具
+  - 推荐
 ---
 
 # 替代 DeepSeek 的 AI 工具推荐

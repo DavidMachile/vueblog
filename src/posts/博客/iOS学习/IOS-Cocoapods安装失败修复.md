@@ -49,8 +49,8 @@ install xcode command line tools again (\$ xcode-select --install).
 如果用这个方法 需要设置path路径
 ```
     ==> Next steps:
-    - Add Homebrew to your PATH in /Users/zzhh-bj/.zprofile:
-        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/zzhh-bj/.zprofile
+    - Add Homebrew to your PATH in /Users/YOUR_NAME/.zprofile:
+        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/YOUR_NAME/.zprofile
         eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 brew help测试下 功能可以用 就安装完成了。

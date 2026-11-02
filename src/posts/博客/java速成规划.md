@@ -3,7 +3,9 @@ title: Java 速成规划
 date: 2025-01-01
 category: 技术博客
 tag:
-  - Java,学习,规划
+  - Java
+  - 学习
+  - 规划
 ---
 
 # Java 速成规划

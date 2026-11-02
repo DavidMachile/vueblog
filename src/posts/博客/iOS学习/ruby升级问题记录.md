@@ -12,7 +12,7 @@ sudo gem install cocoapods
 
 ## 问题 2：输入密码后发现又特么报错 :While executing gem ... (Gem::FilePermissionError)
 
-ERROR:Whileexecuting gem...(Gem::FilePermissionError)You don't have write permissionsforthe/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0directory.mayonggang@mayonggang~%
+ERROR:Whileexecuting gem...(Gem::FilePermissionError)You don't have write permissionsforthe/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0directory.user@host ~%
 解决问题 2：指定的 ruby 路径不对，应当使用更新版本的 ruby
 安装 rbenv
 指定使用 rbenv 的 gem 来执行
@@ -34,7 +34,7 @@ $ sudo gem install cocoapodsPassword:Fetching colored2-3.1.2.gemFetching claide-
 那可能是需要更新一下 pod
 $ pod update
 运行 pod install 时，如果在最后报错：
-[!]Anerror occurredwhileprocessing the post-install hook of thePodfile.Nosuch fileordirectory-python/Users/myg/Desktop/P_gitee/1.数字北京/Podfile:139:in``'/Users/myg/Desktop/P_gitee/1.数字北京/Podfile:139:in`block(3levels)infrom_ruby'/Users/myg/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/cocoapods-core-1.11.3/lib/cocoapods-core/podfile.rb:196:in`post_install!'/Users/myg/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:945:in`run_podfile_post_install_hook'
+[!]Anerror occurredwhileprocessing the post-install hook of thePodfile.Nosuch fileordirectory-python/Users/YOUR_NAME/Desktop/PROJECT/Podfile:139:in``'/Users/YOUR_NAME/Desktop/PROJECT/Podfile:139:in`block(3levels)infrom_ruby'/Users/YOUR_NAME/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/cocoapods-core-1.11.3/lib/cocoapods-core/podfile.rb:196:in`post_install!'/Users/YOUR_NAME/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:945:in`run_podfile_post_install_hook'
 处理方法：
 我的提示语是没有 python 这个文件路径，
 我去 Podfile 中搜索了一下 output =python #{root_path}/DS_BeiJing/Third/BaiDuAI/scheme_desc_collector.py #{root_path}`

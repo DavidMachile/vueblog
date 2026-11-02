@@ -3,7 +3,9 @@ title: 古诗词 ai生成视频
 date: 2025-03-01
 category: AI与创作
 tag:
-  - AI,视频,教程
+  - AI
+  - 视频
+  - 教程
 ---
 
 # 古诗词 ai生成视频
