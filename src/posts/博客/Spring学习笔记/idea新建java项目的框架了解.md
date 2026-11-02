@@ -53,7 +53,7 @@ Mybatis是一个支持普通SQL查询、存储过程和高级映射的持久层�
  
 ## 代码案例
  
-``` JDBC使用demo
+```java JDBC使用demo
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -83,14 +83,14 @@ public class JdbcExample {
 }
 ```
 
-``` java文件
+```java
 // Mapper接口
 public interface UserMapper {
     User selectUserById(int id);
 }
 ```
 
-``` xml文件
+```xml
 <!-- UserMapper.xml -->
 <mapper namespace="UserMapper">
     <select id="selectUserById" resultType="User">
@@ -98,7 +98,7 @@ public interface UserMapper {
     </select>
 </mapper>
 ```
-``` java文件
+```java
 SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
 try (SqlSession session = sqlSessionFactory.openSession()) {
     UserMapper mapper = session.getMapper(UserMapper.class);
@@ -111,7 +111,7 @@ try (SqlSession session = sqlSessionFactory.openSession()) {
 ## Maven
 Maven作为一个构建工具，不仅能帮我们自动化构建，还能够抽象构建过程，提供构建任务实现;它跨平台，对外提供了一致的操作接口，这一切足以使它成为优秀的、流行的构建工具。
 Maven不仅是构建工具，还是一个依赖管理工具和项目管理工具，它提供了中央仓库，能帮我自动下载构件。
-<font style='color:red'> 主要用作依赖库的管理 </font>
+<span style="color:red"> 主要用作依赖库的管理 </span>
 
 
 

@@ -134,7 +134,7 @@ SDWebImage 的图片下载分类，只要一行代码就可以实现图片异步
 
 1.  SDWebImage 支持动图吗？GIF
 
-```objectivec
+```objective-c
 1. #import <ImageIO/ImageIO.h>
 2. [UIImage animatedImageWithImages:images duration:duration];
 ```

@@ -31,4 +31,4 @@
 - 随后调用 setNeedsUpdateConstraints 只是标记了视图为需要在下一个布局周期中更新约束，而不会立即触发更新。
 - 因此，这种调用方式通常没有实际意义，也不推荐这样做。
 
-<font style="color:red">综上，setNeedsUpdateConstraints 和 updateConstraintsIfNeeded 的先后调用确实会产生区别。在大多数情况下，应先调用 setNeedsUpdateConstraints 来标记视图为需要更新约束，然后在需要立即更新约束时调用 updateConstraintsIfNeeded。</font>
+<span style="color:red">综上，setNeedsUpdateConstraints 和 updateConstraintsIfNeeded 的先后调用确实会产生区别。在大多数情况下，应先调用 setNeedsUpdateConstraints 来标记视图为需要更新约束，然后在需要立即更新约束时调用 updateConstraintsIfNeeded。</span>

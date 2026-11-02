@@ -1,10 +1,12 @@
 # Mybatis连接数据库
 
 ## 大致思路
-``` mermaid
-Graph LR
-1.引入pmo依赖 --> 2.Mybatis配置文件 --> 3.编写映射文件 --> 4.得到SQLSession执行语句 --> 5.关闭SQLSession
-
+```mermaid
+graph LR
+    A[1.引入pom依赖] --> B[2.Mybatis配置文件]
+    B --> C[3.编写映射文件]
+    C --> D[4.得到SQLSession执行语句]
+    D --> E[5.关闭SQLSession]
 ```
 
 - 对数据库进行配置，连接数据库。（这块只需要写一次就好）

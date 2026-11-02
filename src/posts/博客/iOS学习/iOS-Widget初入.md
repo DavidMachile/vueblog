@@ -34,7 +34,7 @@ Xcode Today 模板为主体类（名为 TodayViewController）、Info.plist 文�
 
 默认情况下，Today 模板提供以下 Info.plist 键和值（此处针对 OS X 目标显示）：
 
-```object-c
+```xml
 <key>NSExtension</key>
     <dict>
         <key>NSExtensionPointIdentifier</key>

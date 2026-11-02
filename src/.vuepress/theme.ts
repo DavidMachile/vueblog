@@ -4,7 +4,8 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://davidmachile.github.io/vueblog",
+  // 注意: hostname 只写域名，不要带 base 路径，否则会与 base 拼成 /vueblog/vueblog/
+  hostname: "https://davidmachile.github.io",
 
   author: {
     name: "daisz",
@@ -40,16 +41,6 @@ export default hopeTheme({
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
-      },
-    },
-  },
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
       },
     },
   },
@@ -120,8 +111,9 @@ export default hopeTheme({
     // 在启用之前安装 flowchart.ts
     // flowchart: true,
 
-    // 在启用之前安装 mermaid
-    // mermaid: true,
+    // Mermaid 流程图（已安装 mermaid）
+    // AI绘制流程图教程 / 鸿蒙边框 / Mybatis连接数据库 三篇依赖它渲染
+    mermaid: true,
 
     // playground: {
     //   presets: ["ts", "vue"],
@@ -137,6 +129,10 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+
+    // 全站搜索（94 篇文章，此前没有任何搜索入口）
+    // 占位文案由主题 zh-CN locale 提供（显示为「搜索」），无需在此覆盖
+    search: true,
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
