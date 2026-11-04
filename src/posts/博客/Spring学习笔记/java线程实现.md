@@ -1,3 +1,13 @@
+---
+title: java线程实现
+date: 2024-11-01
+category: 技术博客
+tag:
+  - Java
+  - 并发
+cover: /assets/images/cover3.jpg
+---
+
 # java线程实现
 
 ## 创建线程的几种方式：

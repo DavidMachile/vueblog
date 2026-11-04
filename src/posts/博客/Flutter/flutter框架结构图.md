@@ -1,3 +1,13 @@
+---
+title: flutter框架结构图
+date: 2024-10-24
+category: 技术博客
+tag:
+  - Flutter
+  - 框架
+cover: /assets/images/cover2.jpg
+---
+
 # flutter 框架结构图
 
 ## 1.简介

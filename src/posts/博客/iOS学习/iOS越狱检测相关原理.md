@@ -1,3 +1,13 @@
+---
+title: iOS越狱检测相关原理
+date: 2020-06-15
+category: 技术博客
+tag:
+  - iOS
+  - 安全
+cover: /assets/images/cover2.jpg
+---
+
 # ios 越狱检测相关原理
 
 ## 背景：

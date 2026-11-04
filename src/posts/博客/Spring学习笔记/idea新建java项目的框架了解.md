@@ -1,3 +1,13 @@
+---
+title: idea新建java项目的框架了解
+date: 2024-10-23
+category: 技术博客
+tag:
+  - Java
+  - IDE
+cover: /assets/images/cover3.jpg
+---
+
 # IntelliJ IDEA新建java项目的框架了解
 
 选择maven, java，之后选择Spring web , Spring web Services, JDBC API.

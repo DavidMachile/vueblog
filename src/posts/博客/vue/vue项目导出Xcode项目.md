@@ -1,3 +1,13 @@
+---
+title: vue项目导出Xcode项目
+date: 2024-03-15
+category: 技术博客
+tag:
+  - Vue
+  - 混合开发
+cover: /assets/images/cover3.jpg
+---
+
 # vue 导出导出 xcode 项目
 
 ## 1.安装 node

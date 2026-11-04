@@ -1,3 +1,13 @@
+---
+title: flutter实现图片文本纵向列表
+date: 2024-10-27
+category: 技术博客
+tag:
+  - Flutter
+  - 教程
+cover: /assets/images/cover3.jpg
+---
+
 # flutter 实现图片文本纵向列表布局
 
 ```

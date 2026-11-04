@@ -1,3 +1,13 @@
+---
+title: flutter实现tabbar
+date: 2024-10-29
+category: 技术博客
+tag:
+  - Flutter
+  - 教程
+cover: /assets/images/cover3.jpg
+---
+
 # flutter AppBar 设置
 
 ## 1.appBar 官方 api 声明

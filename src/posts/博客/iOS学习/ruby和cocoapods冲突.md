@@ -1,3 +1,13 @@
+---
+title: ruby和cocoapods冲突
+date: 2025-05-22
+category: 技术博客
+tag:
+  - iOS
+  - 排错
+cover: /assets/images/cover3.jpg
+---
+
 # 解决 ruby 和 cocoapods 版本冲突
 
 ## 问题记录

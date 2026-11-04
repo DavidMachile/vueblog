@@ -1,3 +1,13 @@
+---
+title: vue搭建博客教程
+date: 2025-03-10
+category: 技术博客
+tag:
+  - Vue
+  - 博客
+cover: /assets/images/cover2.jpg
+---
+
 # vue 搭建博客教程
 
 ## 背景

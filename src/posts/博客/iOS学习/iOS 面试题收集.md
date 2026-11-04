@@ -1,3 +1,13 @@
+---
+title: iOS 面试题收集
+date: 2021-02-10
+category: 技术博客
+tag:
+  - iOS
+  - 面试
+cover: /assets/images/cover2.jpg
+---
+
 # ios 面试题
 
 1：谈谈你对 KVC 的理解

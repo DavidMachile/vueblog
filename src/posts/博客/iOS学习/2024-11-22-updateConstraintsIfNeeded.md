@@ -1,3 +1,13 @@
+---
+title: updateConstraintsIfNeeded
+date: 2024-11-22
+category: 技术博客
+tag:
+  - iOS
+  - AutoLayout
+cover: /assets/images/cover3.jpg
+---
+
 # setNeedsUpdateConstraints 和 updateConstraintsIfNeeded 先后调用区别
 
 在 iOS 开发中，setNeedsUpdateConstraints 和 updateConstraintsIfNeeded 是与 Auto Layout 布局系统密切相关的两个方法，它们的作用和调用时机有所不同，因此先后调用它们确实会产生区别。

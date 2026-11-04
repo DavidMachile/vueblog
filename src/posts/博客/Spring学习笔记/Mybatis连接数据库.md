@@ -1,3 +1,13 @@
+---
+title: Mybatis连接数据库
+date: 2024-11-15
+category: 技术博客
+tag:
+  - Java
+  - Mybatis
+cover: /assets/images/cover2.jpg
+---
+
 # Mybatis连接数据库
 
 ## 大致思路

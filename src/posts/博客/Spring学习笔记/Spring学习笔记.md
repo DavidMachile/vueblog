@@ -1,3 +1,13 @@
+---
+title: Spring学习笔记
+date: 2024-10-23
+category: 技术博客
+tag:
+  - Java
+  - Spring
+cover: /assets/images/cover2.jpg
+---
+
 # Spring学习笔记
 
 

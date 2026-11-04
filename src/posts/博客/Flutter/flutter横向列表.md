@@ -1,3 +1,13 @@
+---
+title: flutter横向列表
+date: 2024-10-28
+category: 技术博客
+tag:
+  - Flutter
+  - 教程
+cover: /assets/images/cover2.jpg
+---
+
 # flutter 横向列表
 
 ```

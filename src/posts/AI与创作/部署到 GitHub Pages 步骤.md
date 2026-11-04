@@ -1,3 +1,13 @@
+---
+title: 部署到 GitHub Pages 步骤
+date: 2026-04-15
+category: AI与创作
+tag:
+  - 博客
+  - GitHub
+cover: /assets/images/cover2.jpg
+---
+
 # 部署到 GitHub Pages 步骤
 
 ## 1. 准备工作

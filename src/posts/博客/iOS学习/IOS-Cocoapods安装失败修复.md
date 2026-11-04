@@ -1,3 +1,14 @@
+---
+title: IOS-Cocoapods安装失败修复
+date: 2024-10-25
+category: 技术博客
+tag:
+  - iOS
+  - 排错
+  - CocoaPods
+cover: /assets/images/cover2.jpg
+---
+
 # iOS-Cocoapods安装失败修复记录
 
 ## 1.升级ruby

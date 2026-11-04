@@ -1,3 +1,14 @@
+---
+title: pod install失败问题解决
+date: 2026-03-05
+category: 技术博客
+tag:
+  - iOS
+  - 排错
+  - CocoaPods
+cover: /assets/images/cover3.jpg
+---
+
 # pod install 失败问题解决方案
 
 这个错误的核心原因是 **网络无法连接到 GitHub 的 443 端口**，导致 `git clone` 命令失败，进而无法安装 BRPickerView。主要解决思路是排查网络连接、代理设置或访问限制。

@@ -1,3 +1,13 @@
+---
+title: ruby升级问题记录
+date: 2025-01-15
+category: 技术博客
+tag:
+  - iOS
+  - 排错
+cover: /assets/images/cover2.jpg
+---
+
 # ruby 升级问题记录
 
 ## 1.记录更新 ruby

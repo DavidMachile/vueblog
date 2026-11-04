@@ -1,3 +1,13 @@
+---
+title: LinkedList
+date: 2024-11-03
+category: 技术博客
+tag:
+  - Java
+  - 源码
+cover: /assets/images/cover2.jpg
+---
+
 # LinkedList
 
 LinkedList 的底层是双向链表结构，由于链表没有将元素存储在连续的空间中，而是存储在单独的节点中，然后通过引用将节点连接起来了，因此在任意位置插入或者删除元素时，不需要搬移元素，效率比较高。

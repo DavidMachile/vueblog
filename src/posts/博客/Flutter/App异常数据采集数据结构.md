@@ -1,3 +1,13 @@
+---
+title: App异常数据采集数据结构
+date: 2024-11-20
+category: 技术博客
+tag:
+  - Flutter
+  - 架构
+cover: /assets/images/cover3.jpg
+---
+
 # 采集数据
 
 ## 1.设备信息 deviceInfo

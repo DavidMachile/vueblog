@@ -1,3 +1,12 @@
+---
+title: vue3快速入手
+date: 2023-12-18
+category: 技术博客
+tag:
+  - Vue3
+cover: /assets/images/cover2.jpg
+---
+
 # 1. Vue3 简介
 
 - 2020 年 9 月 18 日，`Vue.js`发布版`3.0`版本，代号：`One Piece`（n

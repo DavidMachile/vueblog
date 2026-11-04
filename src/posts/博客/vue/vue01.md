@@ -1,3 +1,13 @@
+---
+title: vue01
+date: 2023-05-04
+category: 技术博客
+tag:
+  - Vue
+  - 笔记
+cover: /assets/images/cover2.jpg
+---
+
 # vue 学习笔记 01
 
 ## 什么是 vue

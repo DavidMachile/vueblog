@@ -1,3 +1,13 @@
+---
+title: iOS关于枚举
+date: 2019-10-15
+category: 技术博客
+tag:
+  - iOS
+  - OC
+cover: /assets/images/cover2.jpg
+---
+
 # iOS 关于枚举
 
 ```

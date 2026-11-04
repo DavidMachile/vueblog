@@ -1,3 +1,13 @@
+---
+title: flutter实现图片
+date: 2024-10-26
+category: 技术博客
+tag:
+  - Flutter
+  - 教程
+cover: /assets/images/cover2.jpg
+---
+
 # flutter 实现图片
 
 ```

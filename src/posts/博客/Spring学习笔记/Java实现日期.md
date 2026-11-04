@@ -1,3 +1,12 @@
+---
+title: Java实现日期
+date: 2024-10-28
+category: 技术博客
+tag:
+  - Java
+cover: /assets/images/cover2.jpg
+---
+
 # java实现日期
 ```
          // 获取当前时间

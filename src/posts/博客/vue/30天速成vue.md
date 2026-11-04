@@ -1,3 +1,13 @@
+---
+title: 30天速成vue
+date: 2023-06-15
+category: 技术博客
+tag:
+  - Vue
+  - 教程
+cover: /assets/images/cover3.jpg
+---
+
 # 30 天速成 Vue 开发
 
 以下是一个 30 天速成 Vue 开发的行动计划，兼顾理论学习和实战演练：

@@ -1,3 +1,13 @@
+---
+title: flutter初次创建文本
+date: 2024-10-25
+category: 技术博客
+tag:
+  - Flutter
+  - 教程
+cover: /assets/images/cover3.jpg
+---
+
 # flutter 创建文本
 
 ```
