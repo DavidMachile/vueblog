@@ -125,7 +125,13 @@ Foundation 在 setter 里插的其实是 `_NSSetIntValueAndNotify` 这类私有�
 | 移除未注册的 observer | 抛异常，崩溃 |
 | 同一 observer 同一 keyPath 注册两次 | 收到两次通知，必须移除两次 |
 
-移除这块是崩溃重灾区。稳妥办法是注册时带上一个静态的 context 指针，回调里先比 context 再处理，同时在初始化时记一个 `BOOL didObserve`，`dealloc` 里按它决定要不要 remove。用 block 版 API（`observeValueForKeyPath:` 的封装或 `NSKeyValueObserving` 的 block 形式）能少写一半样板，但 token 必须持有并在合适时机释放，否则观察者比被观察对象活得久。
+移除这块是崩溃重灾区。稳妥办法是注册时带上一个静态的 context 指针，回调里先比 context 再处理，同时在初始化时记一个 `BOOL didObserve`，`dealloc` 里按它决定要不要 remove。用 block 版 API（`observeValueForKeyPath:` 的封装或 `NSKeyValueObserving` 的 block 形式）能少写一半样板，但 token 必须持有并在合适时机释放，否则观察者比被观察对象活得久。多个观察者注册同一条 keyPath 时，通知会挨个广播，回调顺序取决于注册顺序，不要依赖它。回调里也不要再往同一个 keyPath 上写值，很容易套出递归，加一层"正在回调"的判断标记更实际。
+
+被观察的是可变数组或集合时，别只写 `willChangeValueForKey:` 就完事。KVO 对集合有自己的索引变更协议，要用 `willChange:valuesAtIndexes:forKey:` 配上 `NSKeyValueChangeInsertion` 或 `NSKeyValueChangeRemoval` 这类 kind 参数，否则系统内部记录的 count 和实际内容对不上，报错信息通常是 "kvo-kvc collection..." 开头的异常。绑定 `UITableView` 数据源的场景里这个坑很常见。
+
+还有一类要提醒：观察系统类的私有属性（`_opacity`、`_frame` 之类）能用，但属于未公开行为，系统版本一升级就可能失效或者变成另一种写法。我在 review 里把它列成禁止项，宁可自己在业务层加一个显式的状态回调。
+
+KVC 也有同样性质的用法要克制。给没有公开 setter 的属性赋值，`[imageView setValue:@(0.5) forKey:@"alpha"]` 这类写法在调试和写单测桩时确实方便，但 key 拼错、属性改名都是运行期才炸，而且绕过了封装。用它的前提是这段代码不会跟着版本演进——一旦要长期维护，就换成正式 API。
 
 Swift 侧要注意属性的可见性。Swift 类里的属性默认不进 Objective-C runtime，`observe(_:options:changeHandler:)` 那套 `NSKeyValueObservation` 要求属性同时带 `@objc` 和 `dynamic`，只写 `@objc` 观察不到变化，因为 setter 在编译期就被静态派发了，Foundation 没有机会替换它。
 
